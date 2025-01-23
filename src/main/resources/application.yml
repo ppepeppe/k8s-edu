@@ -1,3 +1,6 @@
 spring.application.name: demo
 
 app.run.type: default
+goods:
+  service:
+    url: ${GOODS_SERVICE_URL}
