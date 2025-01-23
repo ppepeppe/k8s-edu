@@ -28,7 +28,8 @@ public class UserService {
 
         UserDto userDto = UserDto.builder()
                 .userNo(userNo)
-                .userName(appRunType + "-" + userNo)
+                .userName("user-" + appRunType + "-" + userNo)
+                .goodsNo(userNo)
                 .build();
         return userDto;
     }

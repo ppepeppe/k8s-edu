@@ -23,4 +23,5 @@ import lombok.NoArgsConstructor;
 public class UserDto {
     private String userNo;
     private String userName;
+    private String goodsNo;
 }
